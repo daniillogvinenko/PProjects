@@ -78,5 +78,34 @@
             "dateWeekday": "0"
         }
     ],
-    "tasks": []
+    "tasks": [
+        {
+            "taskText": "task 1",
+            "taskTimeFrom": "10:00",
+            "taskTimeTo": "11:30",
+            "dateId": 90,
+            "id": 1
+        },
+        {
+            "taskText": "task 2",
+            "taskTimeFrom": "12:30",
+            "taskTimeTo": "13:30",
+            "dateId": 90,
+            "id": 2
+        },
+        {
+            "taskText": "task 3",
+            "taskTimeFrom": "15:00",
+            "taskTimeTo": "17:00",
+            "dateId": 90,
+            "id": 3
+        },
+        {
+            "taskText": "something",
+            "taskTimeFrom": "10:00",
+            "taskTimeTo": "13:00",
+            "dateId": 89,
+            "id": 4
+        }
+    ]
 }
