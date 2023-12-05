@@ -43,4 +43,11 @@
 .subtitle {
     overflow: hidden;
     max-height: 150px;
+    min-height: 150px;
+
+}
+
+.showMoreBtn {
+    position: relative;
+    bottom: 0;
 }

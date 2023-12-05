@@ -3,7 +3,7 @@ import { Card } from "primereact/card";
 import { Button } from "primereact/button";
 import { NavLink } from "react-router-dom";
 import { useProjects } from "../api/projectsPageApi";
-import { ProgressSpinner } from "primereact/progressspinner";
+import { Skeleton } from "primereact/skeleton";
 import { useSelector } from "react-redux";
 import { Rating } from "primereact/rating";
 import {
@@ -31,7 +31,14 @@ export const ProjectsPage = () => {
                 <div className={classes.mainFlex}>
                     <ProjectsPageFilters />
                     {isLoading || isFetching ? (
-                        <ProgressSpinner style={{ marginTop: "200px" }} />
+                        <div className={classes.cards}>
+                            <Skeleton width="283px" height="586px" />
+                            <Skeleton width="283px" height="586px" />
+                            <Skeleton width="283px" height="586px" />
+                            <Skeleton width="283px" height="586px" />
+                            <Skeleton width="283px" height="586px" />
+                            <Skeleton width="283px" height="586px" />
+                        </div>
                     ) : (
                         <div className={classes.cards}>
                             {projects?.map((project) => (
@@ -60,7 +67,7 @@ export const ProjectsPage = () => {
                                     subTitle={<div className={classes.subtitle}>{project.description}</div>}
                                     footer={
                                         <NavLink to={`/projects/${project.id}`}>
-                                            <Button>SHOW MORE</Button>
+                                            <Button className={classes.showMoreBtn}>SHOW MORE</Button>
                                         </NavLink>
                                     }
                                 />
