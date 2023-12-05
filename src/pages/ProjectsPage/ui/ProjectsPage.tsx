@@ -59,9 +59,9 @@ export const ProjectsPage = () => {
                                     }
                                     subTitle={<div className={classes.subtitle}>{project.description}</div>}
                                     footer={
-                                        <Button>
-                                            <NavLink to={`/projects/${project.id}`}>SHOW MORE</NavLink>
-                                        </Button>
+                                        <NavLink to={`/projects/${project.id}`}>
+                                            <Button>SHOW MORE</Button>
+                                        </NavLink>
                                     }
                                 />
                             ))}

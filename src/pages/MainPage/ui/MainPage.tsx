@@ -6,9 +6,12 @@ export const MainPage = () => {
     return (
         <div className={classes.MainPage}>
             <div className={classes.title}>FIND PET PROJECTS IDEAS FOR TRAINING AND FILLING YOUR RESUME!</div>
-            <Button size="large" className={classes.Btn}>
-                <NavLink to="/projects">SEE PROJECTS</NavLink>
-            </Button>
+
+            <NavLink to="/projects">
+                <Button size="large" className={classes.Btn}>
+                    SEE PROJECTS
+                </Button>
+            </NavLink>
         </div>
     );
 };

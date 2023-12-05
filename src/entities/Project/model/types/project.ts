@@ -1,4 +1,4 @@
-interface Link {
+export interface figmaLink {
     linkImage: string;
     link: string;
 }
@@ -9,6 +9,6 @@ export interface Project {
     description: string;
     stack: string[];
     appFunctions: string[];
-    links: Link[];
+    links: figmaLink[];
     level: string;
 }
