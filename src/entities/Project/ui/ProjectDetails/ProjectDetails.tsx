@@ -1,6 +1,7 @@
 import { useProjectById } from "pages/ProjectDetailsPage/api/projectDetailsPaeApi";
 import classes from "./ProjectDetails.module.scss";
 import { Link, useParams } from "react-router-dom";
+import { Skeleton } from "primereact/skeleton";
 import { ProgressSpinner } from "primereact/progressspinner";
 import { ProjectDetailsCarousel } from "../ProjectDetailsCarousel/ProjectDetailsCarousel";
 
@@ -13,12 +14,27 @@ export const ProjectDetails = () => {
 
     const project = data;
 
-    if (isLoading)
+    if (isLoading) {
         return (
-            <div className={classes.spinnerContainer}>
-                <ProgressSpinner />
+            <div className={classes.ProjectDetails}>
+                <div className={classes.skeletonContainer}>
+                    <div className={classes.title}>
+                        <Skeleton height="30px" width="300px" />
+                    </div>
+                    <div className={classes.description}>
+                        <Skeleton height="16px" width="1200px" />
+                        <Skeleton height="16px" width="800px" />
+                    </div>
+                    <div className={classes.image} style={{ background: `url('${project?.image}') center 0/cover` }}>
+                        <Skeleton height="100%" width="100%" />
+                    </div>
+                    <div className={classes.stackTitle}>
+                        <Skeleton height="30px" width="200px" />
+                    </div>
+                </div>
             </div>
         );
+    }
 
     return (
         <div className={classes.ProjectDetails}>
