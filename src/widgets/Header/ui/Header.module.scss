@@ -1,0 +1,27 @@
+.Header {}
+
+.Header a:visited,
+.Header a:link {
+    color: inherit;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.headerContainer {
+    padding: 20px 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatarContainer {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}

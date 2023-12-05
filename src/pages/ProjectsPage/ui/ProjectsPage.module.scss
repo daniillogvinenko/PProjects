@@ -1,0 +1,46 @@
+.ProjectsPage {
+    padding: 88px 0 0 0;
+}
+
+.mainFlex {
+    display: flex;
+    justify-content: space-between;
+    gap: 56px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: min-content;
+    gap: 30px;
+}
+
+.card {
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.233);
+    margin-bottom: 30px;
+}
+
+.card a:link,
+.card a:visited {
+    color: white;
+}
+
+.cardImageContainer {
+    padding: 10px;
+    height: 300px;
+}
+
+.cardImage {
+    height: 100%;
+    width: 100%;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitle {
+    overflow: hidden;
+    max-height: 150px;
+}

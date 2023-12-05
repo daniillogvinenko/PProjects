@@ -1,0 +1,72 @@
+.ProjectDetails {
+    text-align: center;
+}
+
+.ProjectDetails a:visited,
+.ProjectDetails a:link {
+    color: inherit;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 45px;
+    text-transform: uppercase;
+}
+
+.description {
+    margin-top: 25px;
+    margin-bottom: 55px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.image {
+    margin: 0 auto;
+    width: 70%;
+    height: 518px;
+    border-radius: 6px;
+    box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
+
+.stackTitle {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 63px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.stackItem {
+    margin-bottom: 12px;
+}
+
+.functionsTitle {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 63px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.functionItem {
+    margin-bottom: 12px;
+}
+
+.designLinksTitle {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 63px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.designLinkItem {
+    margin-bottom: 12px;
+}
+
+.spinnerContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}

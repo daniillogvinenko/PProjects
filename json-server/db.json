@@ -1,0 +1,71 @@
+{
+    "projects": [
+        {
+            "id": "1",
+            "title": "To Do App",
+            "description": "A app that keeps track of your to-do actions, you can add any number of tasks to it, search those tasks, click on the checkbox to complete the task, and filter using buttons like active tasks, completed tasks and all the tasks. This is another great project for you to add to your portfolio as a beginner React developer.",
+            "image": "https://www.knowledgehut.com/_next/image?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2Fmedia%2Fimages%2F1659421050984-Image-2%20(41).png&w=1080&q=75",
+            "appFunctions": ["Weather for 4 days", "Responsive design"],
+            "stack": ["JavaScript", "React", "SCSS", "Redux"],
+            "links": [
+                {
+                    "linkImage": "https://s3-alpha.figma.com/hub/file/2545033651/4dd1aa7d-3ed4-4a0b-ad0c-90b1c79a7d31-cover.png",
+                    "link": "https://www.figma.com/community/file/1133173477581507595"
+                },
+                {
+                    "linkImage": "https://s3-alpha.figma.com/hub/file/1681735080/5bf945fe-0c36-411b-b322-de400633ea50-cover.png",
+                    "link": "https://www.figma.com/community/file/1088313494448952121"
+                }
+            ],
+            "level": "Beginner"
+        },
+        {
+            "id": "2",
+            "title": "Calculator",
+            "description": "A simple to use calculator with an appealing user interface. A virtual calculator built with React is another good project idea for you to try as a beginner. We have seen various calculator apps on our mobile phones, computers and different devices as well. Here we have an input box which takes user input as numbers and then try to do operations like addition, subtraction, division and multiplication etc. Here we will learn to create a web app with all the features of the calculator on UI.",
+            "image": "https://www.knowledgehut.com/_next/image?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2Fmedia%2Fimages%2F1659421091021-Image-3%20(29).png&w=1080&q=75",
+            "appFunctions": ["Weather for 4 days", "Responsive design"],
+            "stack": ["JavaScript", "React", "SCSS"],
+            "links": [
+                {
+                    "linkImage": "https://s3-alpha.figma.com/hub/file/2545033651/4dd1aa7d-3ed4-4a0b-ad0c-90b1c79a7d31-cover.png",
+                    "link": "https://www.figma.com/community/file/1133173477581507595"
+                },
+                {
+                    "linkImage": "https://s3-alpha.figma.com/hub/file/1681735080/5bf945fe-0c36-411b-b322-de400633ea50-cover.png",
+                    "link": "https://www.figma.com/community/file/1088313494448952121"
+                }
+            ],
+            "level": "Beginner"
+        },
+        {
+            "id": "3",
+            "title": "E Commerce",
+            "description": "An e-commerce website built using React and Typescript, where we can filter clothes products using their customer preferred sizes as M, L or XL etc. We have a button called “Add to cart” below each product shown on the web page, once user selects any product, it will go to cart. At the end it can be used to checkout. These terms must be familiar to everyone now-a-days since it tries to mock popular e-commerce websites like Amazon, Flipkart and Myntra etc.",
+            "image": "https://www.knowledgehut.com/_next/image?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2Fmedia%2Fimages%2F1659421171968-Image-5%20(15).png&w=1080&q=75",
+            "appFunctions": ["Weather for 4 days", "Responsive design"],
+            "stack": ["JavaScript", "React", "SCSS", "TypeScript"],
+            "links": [
+                {
+                    "linkImage": "https://s3-alpha.figma.com/hub/file/2545033651/4dd1aa7d-3ed4-4a0b-ad0c-90b1c79a7d31-cover.png",
+                    "link": "https://www.figma.com/community/file/1133173477581507595"
+                },
+                {
+                    "linkImage": "https://s3-alpha.figma.com/hub/file/1681735080/5bf945fe-0c36-411b-b322-de400633ea50-cover.png",
+                    "link": "https://www.figma.com/community/file/1088313494448952121"
+                }
+            ],
+            "level": "Advanced"
+        },
+        {
+            "id": "4",
+            "title": "Emoji Search",
+            "description": "We are using several emojis on daily basis while chatting with our friends and colleagues on messaging apps like WhatsApp, Facebook Messenger, Snapchat etc, A cool searching app where you can type and search any emoji from the given list of emojis.",
+            "image": "https://www.knowledgehut.com/_next/image?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2Fmedia%2Fimages%2F1659421274074-Image-6%20(12).png&w=1080&q=75",
+            "appFunctions": ["Weather for 4 days", "Responsive design"],
+            "stack": ["JavaScript", "React", "SCSS", "TypeScript"],
+            "links": [],
+            "level": "Beginner"
+        }
+    ]
+}

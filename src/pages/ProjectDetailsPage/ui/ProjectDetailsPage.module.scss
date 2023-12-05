@@ -1,0 +1,17 @@
+.ProjectsPage a:visited,
+.ProjectsPage a:link {
+    color: inherit;
+}
+
+.backBtn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    margin-top: 95px;
+    transition-duration: 0.3s;
+}
+
+.backBtn:hover {
+    transform: translate(-15px, 0);
+}
