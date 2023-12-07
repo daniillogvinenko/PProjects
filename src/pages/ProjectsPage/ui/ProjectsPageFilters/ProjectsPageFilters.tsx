@@ -35,7 +35,7 @@ export const ProjectsPageFilters = () => {
                     placeholder="Stack"
                     value={selectedTechnologies}
                     onChange={setSelectedTechnologies}
-                    options={["JavaScript", "React", "SCSS", "Redux"]}
+                    options={["JavaScript", "React", "SCSS", "Redux", "TailWind", "JSON server", "API calls"]}
                 />
                 <Dropdown
                     placeholder="Level"

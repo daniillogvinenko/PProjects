@@ -5,6 +5,9 @@ import { ProjectsPageSchema } from "../types/ProjectsPageSchema";
 const initialState: ProjectsPageSchema = {
     selectedTechologies: [],
     selectedLevel: "",
+    limit: 6,
+    pageNumber: 1,
+    total: 6,
 };
 
 export const projectPageSlice = createSlice({
@@ -16,6 +19,9 @@ export const projectPageSlice = createSlice({
         },
         setSelectedLevel: (state, action: PayloadAction<string>) => {
             state.selectedLevel = action.payload;
+        },
+        setPageNumber: (state, action: PayloadAction<number>) => {
+            state.pageNumber = action.payload;
         },
     },
 });

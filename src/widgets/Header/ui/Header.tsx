@@ -1,6 +1,4 @@
 import classes from "./Header.module.scss";
-import Logoipsum from "shared/assets/icons/logoipsum.png";
-import { Avatar } from "primereact/avatar";
 import { Splitter } from "primereact/splitter";
 import { NavLink } from "react-router-dom";
 
@@ -13,10 +11,7 @@ export const Header = () => {
                         <NavLink to="/">
                             <div className={classes.logo}>PProjects.</div>
                         </NavLink>
-                        <div className={classes.avatarContainer}>
-                            <div>USERNAME</div>
-                            <Avatar icon="pi pi-user" size="xlarge" shape="circle" />
-                        </div>
+                        <div className={classes.avatarContainer}></div>
                     </div>
                 </div>
             </div>
