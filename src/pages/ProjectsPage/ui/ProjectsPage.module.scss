@@ -37,6 +37,7 @@
 
 .titleContainer {
     display: flex;
+    gap: 15px;
     justify-content: space-between;
 }
 
@@ -55,4 +56,24 @@
 .paginator {
     display: flex;
     justify-content: center;
+}
+
+.contentContainer {
+    width: 100%;
+}
+
+.notFound {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.rating svg {
+    cursor: auto;
+    stroke: var(--text-color-secondary);
+    stroke-width: 0.2px;
 }

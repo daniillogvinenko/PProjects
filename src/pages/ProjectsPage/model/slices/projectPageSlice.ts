@@ -5,6 +5,7 @@ import { ProjectsPageSchema } from "../types/ProjectsPageSchema";
 const initialState: ProjectsPageSchema = {
     selectedTechologies: [],
     selectedLevel: "",
+    query: "",
     limit: 6,
     pageNumber: 1,
     total: 6,
@@ -22,6 +23,9 @@ export const projectPageSlice = createSlice({
         },
         setPageNumber: (state, action: PayloadAction<number>) => {
             state.pageNumber = action.payload;
+        },
+        setQuery: (state, action: PayloadAction<string>) => {
+            state.query = action.payload;
         },
     },
 });

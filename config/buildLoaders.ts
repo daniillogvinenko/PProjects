@@ -19,8 +19,7 @@ export const buildLoaders = ({ mode }: buildLoadersOptions): webpack.RuleSetRule
                     options: {
                         modules: {
                             auto: (resPath: string) => Boolean(resPath.includes(".module.")),
-                            localIdentName:
-                                mode === "development" ? "[path][name]__[local]--[hash:base64:5]" : "[hash:base64:8]",
+                            localIdentName: mode === "development" ? "[path][name]__[local]--[hash:base64:5]" : "[hash:base64:8]",
                         },
                     },
                 },
@@ -39,15 +38,14 @@ export const buildLoaders = ({ mode }: buildLoadersOptions): webpack.RuleSetRule
                     options: {
                         modules: {
                             auto: (resPath: string) => Boolean(resPath.includes(".module.")),
-                            localIdentName:
-                                mode === "development" ? "[path][name]__[local]--[hash:base64:5]" : "[hash:base64:8]",
+                            localIdentName: mode === "development" ? "[path][name]__[local]--[hash:base64:5]" : "[hash:base64:8]",
                         },
                     },
                 },
             ],
         },
         {
-            test: /\.(png|jpe?g|gif|ttf)$/i,
+            test: /\.(png|jpe?g|gif|ttf|webp)$/i,
             use: [
                 {
                     loader: "file-loader",

@@ -3,6 +3,7 @@ import classes from "./ProjectsPageFilters.module.scss";
 import { MultiSelect, MultiSelectChangeEvent } from "primereact/multiselect";
 import { useSelector } from "react-redux";
 import {
+    getProjectPageQuery,
     getProjectPageSelectedLevel,
     getProjectPageSelectedTechnologies,
 } from "../../model/selectors/projectPageSelectors";
@@ -10,6 +11,9 @@ import { projectPageActions } from "../../model/slices/projectPageSlice";
 import { useAppDispatch } from "shared/lib/hooks/useAppDispatch/useAppDispatch";
 import { Dropdown, DropdownChangeEvent } from "primereact/dropdown";
 import { Button } from "primereact/button";
+import { InputText } from "primereact/inputtext";
+import { FormEvent } from "react";
+import { useDebounce } from "shared/lib/hooks/useDebounce/useDebounce";
 
 export const ProjectsPageFilters = () => {
     const dispatch = useAppDispatch();
@@ -23,21 +27,34 @@ export const ProjectsPageFilters = () => {
         dispatch(projectPageActions.setSelectedLevel(e.value));
     };
 
+    const query = useSelector(getProjectPageQuery);
+
     const onResetFilters = () => {
         dispatch(projectPageActions.setSelectedLevel("All"));
         dispatch(projectPageActions.setSelectedTechnologies([]));
     };
 
+    const onChangeHandler = useDebounce((e: FormEvent<HTMLInputElement>) => {
+        // dispatch(projectPageActions.setQuery(e.currentTarget.value));
+        console.log(e);
+    }, 500);
+
     const filterContent = (
         <div>
             <div className={classes.multiSelect}>
+                <span className="p-input-icon-left">
+                    <i className="pi pi-search" />
+                    <InputText onChange={console.log} value={query} tooltip="Search" className={classes.searchInput} placeholder="Search" />
+                </span>
                 <MultiSelect
+                    tooltip="Stack"
                     placeholder="Stack"
                     value={selectedTechnologies}
                     onChange={setSelectedTechnologies}
                     options={["JavaScript", "React", "SCSS", "Redux", "TailWind", "JSON server", "API calls"]}
                 />
                 <Dropdown
+                    tooltip="Level"
                     placeholder="Level"
                     value={selectedLevel}
                     onChange={setSelectedLevel}
