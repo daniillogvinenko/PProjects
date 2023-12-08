@@ -34,17 +34,22 @@ export const ProjectsPageFilters = () => {
         dispatch(projectPageActions.setSelectedTechnologies([]));
     };
 
-    const onChangeHandler = useDebounce((e: FormEvent<HTMLInputElement>) => {
-        // dispatch(projectPageActions.setQuery(e.currentTarget.value));
-        console.log(e);
-    }, 500);
+    const onChangeHandler = (e: FormEvent<HTMLInputElement>) => {
+        dispatch(projectPageActions.setQuery(e.currentTarget?.value));
+    };
 
     const filterContent = (
         <div>
             <div className={classes.multiSelect}>
                 <span className="p-input-icon-left">
                     <i className="pi pi-search" />
-                    <InputText onChange={console.log} value={query} tooltip="Search" className={classes.searchInput} placeholder="Search" />
+                    <InputText
+                        onChange={onChangeHandler}
+                        value={query}
+                        tooltip="Search"
+                        className={classes.searchInput}
+                        placeholder="Search"
+                    />
                 </span>
                 <MultiSelect
                     tooltip="Stack"
