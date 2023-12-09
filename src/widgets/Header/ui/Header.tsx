@@ -5,8 +5,8 @@ import { InputSwitch } from "primereact/inputswitch";
 import { useState } from "react";
 
 enum Themes {
-    dark = "/arya-green/theme.css",
-    light = "/lara-light-cyan/theme.css",
+    dark = "/themes/arya-green/theme.css",
+    light = "/themes/lara-light-cyan/theme.css",
 }
 
 const changeTheme = (theme: Themes) => {

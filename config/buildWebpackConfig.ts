@@ -1,4 +1,5 @@
 import HtmlWebpackPlugin from "html-webpack-plugin";
+import CopyWebpackPlugin from "copy-webpack-plugin";
 import * as webpack from "webpack";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import * as webpackDevServer from "webpack-dev-server"; // чтобы было поле devServer
@@ -44,6 +45,14 @@ export const buildWebpackConfig = ({ paths, mode }: buildConfigOptions): webpack
                         : JSON.stringify("https://p-projects-backend.vercel.app/"),
             }),
             new webpack.ProgressPlugin(),
+            new CopyWebpackPlugin({
+                patterns: [
+                    {
+                        from: paths.themes,
+                        to: paths.buildThemes,
+                    },
+                ],
+            }),
         ],
         devServer:
             mode === "development"

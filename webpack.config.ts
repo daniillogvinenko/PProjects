@@ -10,6 +10,8 @@ export default (env: EnvironmentalVariables) => {
             output: path.resolve(__dirname, "build"),
             htmlWebpackPlugin: path.resolve(__dirname, "public", "index.html"),
             src: path.resolve(__dirname, "src"),
+            themes: path.resolve(__dirname, "public", "themes"),
+            buildThemes: path.resolve(__dirname, "build", "themes"),
         },
     });
     return config;
