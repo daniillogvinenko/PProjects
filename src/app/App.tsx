@@ -1,5 +1,3 @@
-import "primereact/resources/themes/lara-light-cyan/theme.css";
-// import "primereact/resources/themes/arya-green/theme.css";
 import "primeicons/primeicons.css";
 import { Header } from "widgets/Header";
 import { Routes, Route } from "react-router-dom";

@@ -52,7 +52,9 @@ export const ProjectDetails = () => {
             <div className={classes.functionsTitle}>APP FUNCTIONS</div>
             <div>
                 {project?.appFunctions.map((item) => (
-                    <div className={classes.functionItem}>{item}</div>
+                    <div key={item} className={classes.functionItem}>
+                        {item}
+                    </div>
                 ))}
             </div>
             <div className={classes.designLinksTitle}>FIGMA DESIGNS</div>
