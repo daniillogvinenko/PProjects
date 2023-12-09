@@ -22,9 +22,6 @@ export const CardsSkeleton = () => {
             <div className={classes.skeletonContainer}>
                 <Skeleton width="100%" height="586px" />
             </div>
-            <div className={classes.skeletonContainer}>
-                <Skeleton width="100%" height="586px" />
-            </div>
         </>
     );
 };
