@@ -6,6 +6,10 @@
     display: flex;
     justify-content: space-between;
     gap: 56px;
+
+    @media (max-width: 1100px) {
+        flex-direction: column;
+    }
 }
 
 .cards {
@@ -13,6 +17,14 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: min-content;
     gap: 30px;
+
+    @media (max-width: 1360px) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media (max-width: 610px) {
+        grid-template-columns: 1fr;
+    }
 }
 
 .card {

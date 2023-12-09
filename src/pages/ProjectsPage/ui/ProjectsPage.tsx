@@ -33,7 +33,10 @@ export const ProjectsPage = () => {
     );
     const projects = data;
 
-    const totalData = useProjects({ stack: selectedTechnologies, level: selectedLevel, limit: "", page: "", search: query }, {});
+    const totalData = useProjects(
+        { stack: selectedTechnologies, level: selectedLevel, limit: "", page: "", search: query },
+        {}
+    );
 
     const mapLevelToNumber: Record<string, number> = {
         Beginner: 1,
@@ -56,12 +59,20 @@ export const ProjectsPage = () => {
                     title={
                         <div className={classes.titleContainer}>
                             {project.id}. {project.title}
-                            <Rating className={classes.rating} cancel={false} value={mapLevelToNumber[project.level]} stars={3} />
+                            <Rating
+                                className={classes.rating}
+                                cancel={false}
+                                value={mapLevelToNumber[project.level]}
+                                stars={3}
+                            />
                         </div>
                     }
                     header={
                         <div className={classes.cardImageContainer}>
-                            <div style={{ background: `url('${project.image}') center 0/cover` }} className={classes.cardImage} />
+                            <div
+                                style={{ background: `url('${project.image}') center 0/cover` }}
+                                className={classes.cardImage}
+                            />
                         </div>
                     }
                     subTitle={<div className={classes.subtitle}>{project.description}</div>}

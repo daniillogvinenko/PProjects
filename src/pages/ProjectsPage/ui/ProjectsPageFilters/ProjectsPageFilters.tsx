@@ -46,20 +46,17 @@ export const ProjectsPageFilters = () => {
                     <InputText
                         onChange={onChangeHandler}
                         value={query}
-                        tooltip="Search"
                         className={classes.searchInput}
                         placeholder="Search"
                     />
                 </span>
                 <MultiSelect
-                    tooltip="Stack"
                     placeholder="Stack"
                     value={selectedTechnologies}
                     onChange={setSelectedTechnologies}
                     options={["JavaScript", "React", "SCSS", "Redux", "TailWind", "JSON server", "API calls"]}
                 />
                 <Dropdown
-                    tooltip="Level"
                     placeholder="Level"
                     value={selectedLevel}
                     onChange={setSelectedLevel}
