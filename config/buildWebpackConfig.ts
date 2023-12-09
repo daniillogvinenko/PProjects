@@ -38,7 +38,10 @@ export const buildWebpackConfig = ({ paths, mode }: buildConfigOptions): webpack
             // }),
             new webpack.DefinePlugin({
                 _IS_DEV_: Boolean(mode === "development"),
-                _API_: JSON.stringify("http://localhost:8000/"),
+                _API_:
+                    mode === "development"
+                        ? JSON.stringify("http://localhost:8000/")
+                        : JSON.stringify("https://p-projects-backend.vercel.app/"),
             }),
             new webpack.ProgressPlugin(),
         ],
