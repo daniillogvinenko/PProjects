@@ -21,3 +21,9 @@
 }
 
 .themeSwithcer {}
+
+.Dropdown {
+    @media (max-width: 610px) {
+        max-width: 127px;
+    }
+}
