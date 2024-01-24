@@ -1,14 +1,8 @@
 import classes from "./Header.module.scss";
 import { Splitter } from "primereact/splitter";
 import { NavLink } from "react-router-dom";
-import { InputSwitch } from "primereact/inputswitch";
 import { useState } from "react";
 import { Dropdown, DropdownChangeEvent } from "primereact/dropdown";
-
-enum Themes {
-    dark = "/themes/arya-green/theme.css",
-    light = "/themes/lara-light-cyan/theme.css",
-}
 
 const DropdownThemes = [
     "lara-light-cyan",
@@ -29,16 +23,7 @@ const changeTheme = (theme: string) => {
 };
 
 export const Header = () => {
-    const [theme, setTheme] = useState(Themes.light);
-    let isLight = theme === Themes.light;
-
     const [dropdowntheme, setDropdowntheme] = useState("lara-light-cyan");
-
-    const handleOnThemeChange = () => {
-        const newTheme = theme === Themes.light ? Themes.dark : Themes.light;
-        setTheme(newTheme);
-        changeTheme(newTheme);
-    };
 
     const handleDropdownChange = (e: DropdownChangeEvent) => {
         setDropdowntheme(e.value);
@@ -48,23 +33,16 @@ export const Header = () => {
     return (
         <div className={classes.Header}>
             <div className="container">
-                <div className={classes.headerContainer}>
-                    <div className={classes.flex}>
-                        <NavLink to="/">
-                            <div className={classes.logo}>PProjects.</div>
-                        </NavLink>
-                        {/* <InputSwitch
-                            checked={isLight}
-                            onChange={handleOnThemeChange}
-                            className={classes.themeSwithcer}
-                        ></InputSwitch> */}
-                        <Dropdown
-                            className={classes.Dropdown}
-                            onChange={handleDropdownChange}
-                            options={DropdownThemes}
-                            value={dropdowntheme}
-                        />
-                    </div>
+                <div className={classes.flex}>
+                    <NavLink to="/">
+                        <div className={classes.logo}>PProjects.</div>
+                    </NavLink>
+                    <Dropdown
+                        className={classes.Dropdown}
+                        onChange={handleDropdownChange}
+                        options={DropdownThemes}
+                        value={dropdowntheme}
+                    />
                 </div>
             </div>
             <Splitter />

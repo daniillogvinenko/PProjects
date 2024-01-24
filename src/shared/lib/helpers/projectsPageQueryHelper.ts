@@ -1,3 +1,4 @@
+// возвращает строку по фильтрам
 export const projectsPageQueryHelper = (filters: { stack: string[]; level: string }) => {
     let res = filters.stack.map((str) => `stack_like=${str}`).join("&");
     if (filters.level && filters.level !== "All") {

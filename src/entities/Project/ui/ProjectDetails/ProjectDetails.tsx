@@ -1,8 +1,7 @@
 import { useProjectById } from "pages/ProjectDetailsPage/api/projectDetailsPaeApi";
 import classes from "./ProjectDetails.module.scss";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { Skeleton } from "primereact/skeleton";
-import { ProgressSpinner } from "primereact/progressspinner";
 import { ProjectDetailsCarousel } from "../ProjectDetailsCarousel/ProjectDetailsCarousel";
 
 export const ProjectDetails = () => {

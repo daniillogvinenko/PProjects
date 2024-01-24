@@ -19,6 +19,12 @@ import { projectPageActions } from "../model/slices/projectPageSlice";
 import NoResImage from "shared/assets/images/no-results-found.webp";
 import { CardsSkeleton } from "./CardsSkeleton/CardsSkeleton";
 
+const mapLevelToNumber: Record<string, number> = {
+    Beginner: 1,
+    Advanced: 2,
+    Expert: 3,
+};
+
 export const ProjectsPage = () => {
     const dispatch = useAppDispatch();
     const selectedTechnologies = useSelector(getProjectPageSelectedTechnologies);
@@ -26,23 +32,15 @@ export const ProjectsPage = () => {
     const query = useSelector(getProjectPageQuery);
     const limit = useSelector(getProjectPageLimit);
     const pageNumber = useSelector(getProjectPagePageNumber);
-
-    const { isLoading, data, isFetching } = useProjects(
-        { stack: selectedTechnologies, level: selectedLevel, limit, page: pageNumber, search: query },
-        {}
-    );
-    const projects = data;
-
+    const {
+        isLoading,
+        data: projects,
+        isFetching,
+    } = useProjects({ stack: selectedTechnologies, level: selectedLevel, limit, page: pageNumber, search: query }, {});
     const totalData = useProjects(
         { stack: selectedTechnologies, level: selectedLevel, limit: "", page: "", search: query },
         {}
     );
-
-    const mapLevelToNumber: Record<string, number> = {
-        Beginner: 1,
-        Advanced: 2,
-        Expert: 3,
-    };
 
     const onPageChange = (e: PaginatorPageChangeEvent) => {
         dispatch(projectPageActions.setPageNumber(e.page + 1));
@@ -91,6 +89,9 @@ export const ProjectsPage = () => {
         </div>
     );
 
+    // скрывать пагинатор если dataIsLoading или проекты не найдены
+    const hidePaginator = !projects?.length || dataIsLoading;
+
     return (
         <div className={classes.ProjectsPage}>
             <div className="container">
@@ -98,14 +99,8 @@ export const ProjectsPage = () => {
                     <ProjectsPageFilters />
 
                     <div className={classes.contentContainer}>
-                        {dataIsLoading ? (
-                            <div className={classes.cards}>
-                                <CardsSkeleton />
-                            </div>
-                        ) : (
-                            content
-                        )}
-                        {!projects?.length || dataIsLoading ? null : (
+                        {dataIsLoading ? <CardsSkeleton /> : content}
+                        {hidePaginator ? null : (
                             <Paginator
                                 className={classes.paginator}
                                 first={(pageNumber - 1) * limit}
