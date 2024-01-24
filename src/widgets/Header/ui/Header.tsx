@@ -3,6 +3,7 @@ import { Splitter } from "primereact/splitter";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import { Dropdown, DropdownChangeEvent } from "primereact/dropdown";
+import { LOCALSTORAGE_THEME, changeTheme } from "shared/lib/helpers/changeTheme";
 
 const DropdownThemes = [
     "lara-light-cyan",
@@ -15,19 +16,13 @@ const DropdownThemes = [
     "bootstrap4-dark-blue",
 ];
 
-const changeTheme = (theme: string) => {
-    let themeLink = document.getElementById("app-theme") as HTMLAnchorElement;
-    if (themeLink) {
-        themeLink.href = theme;
-    }
-};
-
 export const Header = () => {
-    const [dropdowntheme, setDropdowntheme] = useState("lara-light-cyan");
+    // начальной темой устанавливается та, которая находится в ls, если она пустая - lara light cyan
+    const [dropdowntheme, setDropdowntheme] = useState(localStorage.getItem(LOCALSTORAGE_THEME) || "lara-light-cyan");
 
     const handleDropdownChange = (e: DropdownChangeEvent) => {
         setDropdowntheme(e.value);
-        changeTheme(`/themes/${e.value}/theme.css`);
+        changeTheme(e.value);
     };
 
     return (

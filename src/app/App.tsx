@@ -5,12 +5,15 @@ import { ProjectDetailsPage } from "pages/ProjectDetailsPage/ui/ProjectDetailsPa
 import { Footer } from "widgets/Footer/ui/Footer";
 import { MainPage } from "pages/MainPage";
 import classes from "./App.module.scss";
-import { Project } from "entities/Project";
 import { ProjectsPage } from "pages/ProjectsPage/ui/ProjectsPage";
-
-const projects: Project[] = [];
+import { useEffect } from "react";
+import { LOCALSTORAGE_THEME, changeTheme } from "../shared/lib/helpers/changeTheme";
 
 export const App = () => {
+    useEffect(() => {
+        changeTheme(localStorage.getItem(LOCALSTORAGE_THEME) || "");
+    }, []);
+
     return (
         <div className={classes.App}>
             <Header />
