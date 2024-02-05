@@ -109,6 +109,21 @@
         },
         {
             "id": "7",
+            "title": "Productivity App",
+            "description": "As the name suggests, productivity apps are the ones that help in enhancing your productivity. Some of the most commonly used productivity apps are note-taking apps, team management apps, task list apps, time management apps, to name a few. .",
+            "image": "https://s3-alpha.figma.com/hub/file/1708666552/129fda52-245b-4a56-94d1-251af27efd48-cover.png",
+            "appFunctions": ["Writing tasks", "Editing tasks", "Statistics"],
+            "stack": ["JavaScript", "React", "TailWind", "Redux", "API calls", "JSON server", "Node JS"],
+            "links": [
+                {
+                    "linkImage": "https://s3-alpha.figma.com/hub/file/1040809059/b14ceeae-7905-4647-a03a-6062fc831feb-cover.png",
+                    "link": "https://www.figma.com/community/file/964788578293948273"
+                }
+            ],
+            "level": "Expert"
+        },
+        {
+            "id": "8",
             "title": "To Do App",
             "description": "A app that keeps track of your to-do actions, you can add any number of tasks to it, search those tasks, click on the checkbox to complete the task, and filter using buttons like active tasks, completed tasks and all the tasks. This is another great project for you to add to your portfolio as a beginner React developer.",
             "image": "https://www.knowledgehut.com/_next/image?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2Fmedia%2Fimages%2F1659421050984-Image-2%20(41).png&w=1080&q=75",
@@ -122,66 +137,66 @@
                 {
                     "linkImage": "https://s3-alpha.figma.com/hub/file/1681735080/5bf945fe-0c36-411b-b322-de400633ea50-cover.png",
                     "link": "https://www.figma.com/community/file/1088313494448952121"
-                }
-            ],
-            "level": "Beginner"
-        },
-        {
-            "id": "8",
-            "title": "Quiz App",
-            "description": "Create an app for creating and taking quizzes",
-            "image": "https://img-c.udemycdn.com/course/750x422/2223252_0708.jpg",
-            "appFunctions": ["Quiz constructor", "Taking quizzes", "Saving results", "Quiz search"],
-            "stack": ["JavaScript", "React", "SCSS", "Redux"],
-            "links": [
-                {
-                    "linkImage": "https://s3-alpha.figma.com/hub/file/1810377268/88e939f2-4e47-4dee-8337-1299c4d42adc-cover.png",
-                    "link": "https://www.figma.com/community/file/1100827216170715240"
                 }
             ],
             "level": "Beginner"
         },
         {
             "id": "9",
-            "title": "Calculator",
-            "description": "You'll will create a user interface with data entry buttons and a display screen to show the results. The CSS Grid can then be used to align buttons and a screen in a grid-like format. If-else statements, loops, operators, JavaScript functions, event listeners, and so on will increase your knowledge.",
-            "image": "https://assets.materialup.com/uploads/32e0a889-e557-4a3f-b481-976de40f91bf/calculatorappdesign.png",
-            "appFunctions": ["Basic calculator functions"],
-            "stack": ["JavaScript", "SCSS"],
+            "title": "Quiz App",
+            "description": "Create an app for creating and taking quizzes",
+            "image": "https://img-c.udemycdn.com/course/750x422/2223252_0708.jpg",
+            "appFunctions": ["Quiz constructor", "Taking quizzes", "Saving results", "Quiz search"],
+            "stack": ["JavaScript", "React", "SCSS", "Redux"],
             "links": [
                 {
-                    "linkImage": "https://s3-alpha.figma.com/hub/file/2419062441/6b568367-282a-4d77-bc83-7458ff786b3e-cover.png",
-                    "link": "https://www.figma.com/community/file/1067410724733215446"
-                },
-                {
-                    "linkImage": "https://s3-alpha.figma.com/hub/file/629553503/693c9c5f-7bf4-46e4-941a-f1a45c29e388-cover.png",
-                    "link": "https://www.figma.com/community/file/932300216339389541"
+                    "linkImage": "https://s3-alpha.figma.com/hub/file/1810377268/88e939f2-4e47-4dee-8337-1299c4d42adc-cover.png",
+                    "link": "https://www.figma.com/community/file/1100827216170715240"
                 }
             ],
             "level": "Beginner"
         },
         {
             "id": "10",
-            "title": "Music Player",
-            "description": "The architecture, which is divided into three buckets, will be used: CSS (Cascading Style Sheets (adding styling to each element defined in the HTML file) JavaScript is a programming language that allows you to (adding elements for audio, player buttons, and music information) (when HTML elements are clicked, functionality is added).",
-            "image": "https://uifresh.net/wp-content/uploads/2021/12/simple-music-player.png",
-            "appFunctions": [
-                "Multiple songs",
-                "Play-Pause button",
-                "Previous-Next song buttons",
-                "Button for looping songs"
-            ],
+            "title": "Calculator",
+            "description": "You'll will create a user interface with data entry buttons and a display screen to show the results. The CSS Grid can then be used to align buttons and a screen in a grid-like format. If-else statements, loops, operators, JavaScript functions, event listeners, and so on will increase your knowledge.",
+            "image": "https://assets.materialup.com/uploads/32e0a889-e557-4a3f-b481-976de40f91bf/calculatorappdesign.png",
+            "appFunctions": ["Basic calculator functions"],
             "stack": ["JavaScript", "SCSS"],
             "links": [
                 {
-                    "linkImage": "https://s3-alpha.figma.com/hub/file/2422840695/98e2f67e-556f-4b57-b05e-7742aada9cf7-cover.png",
-                    "link": "https://www.figma.com/community/file/1159167288813082639"
+                    "linkImage": "https://s3-alpha.figma.com/hub/file/2419062441/6b568367-282a-4d77-bc83-7458ff786b3e-cover.png",
+                    "link": "https://www.figma.com/community/file/1067410724733215446"
+                },
+                {
+                    "linkImage": "https://s3-alpha.figma.com/hub/file/629553503/693c9c5f-7bf4-46e4-941a-f1a45c29e388-cover.png",
+                    "link": "https://www.figma.com/community/file/932300216339389541"
                 }
             ],
             "level": "Beginner"
         },
         {
             "id": "11",
+            "title": "Music Player",
+            "description": "The architecture, which is divided into three buckets, will be used: CSS (Cascading Style Sheets (adding styling to each element defined in the HTML file) JavaScript is a programming language that allows you to (adding elements for audio, player buttons, and music information) (when HTML elements are clicked, functionality is added).",
+            "image": "https://uifresh.net/wp-content/uploads/2021/12/simple-music-player.png",
+            "appFunctions": [
+                "Multiple songs",
+                "Play-Pause button",
+                "Previous-Next song buttons",
+                "Button for looping songs"
+            ],
+            "stack": ["JavaScript", "SCSS"],
+            "links": [
+                {
+                    "linkImage": "https://s3-alpha.figma.com/hub/file/2422840695/98e2f67e-556f-4b57-b05e-7742aada9cf7-cover.png",
+                    "link": "https://www.figma.com/community/file/1159167288813082639"
+                }
+            ],
+            "level": "Beginner"
+        },
+        {
+            "id": "12",
             "title": "Photography portfolio",
             "description": "Display your photography skills with beautiful image galleries",
             "image": "https://static.wixstatic.com/media/4a5235_8c6714e3a77f4dea8c9a4efbdbfd26c2~mv2.jpg/v1/fill/w_640,h_354,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/4a5235_8c6714e3a77f4dea8c9a4efbdbfd26c2~mv2.jpg",
@@ -191,31 +206,46 @@
                 {
                     "linkImage": "https://s3-alpha.figma.com/hub/file/2465848328/6c0a0fcb-eb8a-4e4f-8fa4-d45ed2a36abd-cover.png",
                     "link": "https://www.figma.com/community/file/1162646671883725734"
-                }
-            ],
-            "level": "Advanced"
-        },
-        {
-            "id": "12",
-            "title": "Online Clothing Store",
-            "description": "Design an e-commerce website for clothing and accessories.",
-            "image": "https://i.pinimg.com/originals/b7/3a/86/b73a8649b21aeda0ae92cf25954613b3.png",
-            "appFunctions": ["Sorting", "Filters", "Cart", "Save item for later", "Search"],
-            "stack": ["JavaScript", "React", "TailWind", "Redux", "API calls", "JSON server"],
-            "links": [
-                {
-                    "linkImage": "https://s3-alpha.figma.com/hub/file/2555671029/877e8ada-0157-40e1-bf0c-20f23f967b37-cover.png",
-                    "link": "https://www.figma.com/community/file/1169625825293818878"
-                },
-                {
-                    "linkImage": "https://s3-alpha.figma.com/hub/file/2638750832/38d0d565-1204-4e4c-ae27-6bd9c9e53cc8-cover.png",
-                    "link": "https://www.figma.com/community/file/1176201382698798174"
                 }
             ],
             "level": "Advanced"
         },
         {
             "id": "13",
+            "title": "Online Clothing Store",
+            "description": "Design an e-commerce website for clothing and accessories.",
+            "image": "https://i.pinimg.com/originals/b7/3a/86/b73a8649b21aeda0ae92cf25954613b3.png",
+            "appFunctions": ["Sorting", "Filters", "Cart", "Save item for later", "Search"],
+            "stack": ["JavaScript", "React", "TailWind", "Redux", "API calls", "JSON server"],
+            "links": [
+                {
+                    "linkImage": "https://s3-alpha.figma.com/hub/file/2555671029/877e8ada-0157-40e1-bf0c-20f23f967b37-cover.png",
+                    "link": "https://www.figma.com/community/file/1169625825293818878"
+                },
+                {
+                    "linkImage": "https://s3-alpha.figma.com/hub/file/2638750832/38d0d565-1204-4e4c-ae27-6bd9c9e53cc8-cover.png",
+                    "link": "https://www.figma.com/community/file/1176201382698798174"
+                }
+            ],
+            "level": "Advanced"
+        },
+        {
+            "id": "14",
+            "title": "Productivity App",
+            "description": "As the name suggests, productivity apps are the ones that help in enhancing your productivity. Some of the most commonly used productivity apps are note-taking apps, team management apps, task list apps, time management apps, to name a few. .",
+            "image": "https://s3-alpha.figma.com/hub/file/1708666552/129fda52-245b-4a56-94d1-251af27efd48-cover.png",
+            "appFunctions": ["Writing tasks", "Editing tasks", "Statistics"],
+            "stack": ["JavaScript", "React", "TailWind", "Redux", "API calls", "JSON server", "Node JS"],
+            "links": [
+                {
+                    "linkImage": "https://s3-alpha.figma.com/hub/file/1040809059/b14ceeae-7905-4647-a03a-6062fc831feb-cover.png",
+                    "link": "https://www.figma.com/community/file/964788578293948273"
+                }
+            ],
+            "level": "Expert"
+        },
+        {
+            "id": "15",
             "title": "To Do App",
             "description": "A app that keeps track of your to-do actions, you can add any number of tasks to it, search those tasks, click on the checkbox to complete the task, and filter using buttons like active tasks, completed tasks and all the tasks. This is another great project for you to add to your portfolio as a beginner React developer.",
             "image": "https://www.knowledgehut.com/_next/image?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2Fmedia%2Fimages%2F1659421050984-Image-2%20(41).png&w=1080&q=75",
@@ -229,119 +259,12 @@
                 {
                     "linkImage": "https://s3-alpha.figma.com/hub/file/1681735080/5bf945fe-0c36-411b-b322-de400633ea50-cover.png",
                     "link": "https://www.figma.com/community/file/1088313494448952121"
-                }
-            ],
-            "level": "Beginner"
-        },
-        {
-            "id": "14",
-            "title": "Quiz App",
-            "description": "Create an app for creating and taking quizzes",
-            "image": "https://img-c.udemycdn.com/course/750x422/2223252_0708.jpg",
-            "appFunctions": ["Quiz constructor", "Taking quizzes", "Saving results", "Quiz search"],
-            "stack": ["JavaScript", "React", "SCSS", "Redux"],
-            "links": [
-                {
-                    "linkImage": "https://s3-alpha.figma.com/hub/file/1810377268/88e939f2-4e47-4dee-8337-1299c4d42adc-cover.png",
-                    "link": "https://www.figma.com/community/file/1100827216170715240"
-                }
-            ],
-            "level": "Beginner"
-        },
-        {
-            "id": "15",
-            "title": "Calculator",
-            "description": "You'll will create a user interface with data entry buttons and a display screen to show the results. The CSS Grid can then be used to align buttons and a screen in a grid-like format. If-else statements, loops, operators, JavaScript functions, event listeners, and so on will increase your knowledge.",
-            "image": "https://assets.materialup.com/uploads/32e0a889-e557-4a3f-b481-976de40f91bf/calculatorappdesign.png",
-            "appFunctions": ["Basic calculator functions"],
-            "stack": ["JavaScript", "SCSS"],
-            "links": [
-                {
-                    "linkImage": "https://s3-alpha.figma.com/hub/file/2419062441/6b568367-282a-4d77-bc83-7458ff786b3e-cover.png",
-                    "link": "https://www.figma.com/community/file/1067410724733215446"
-                },
-                {
-                    "linkImage": "https://s3-alpha.figma.com/hub/file/629553503/693c9c5f-7bf4-46e4-941a-f1a45c29e388-cover.png",
-                    "link": "https://www.figma.com/community/file/932300216339389541"
                 }
             ],
             "level": "Beginner"
         },
         {
             "id": "16",
-            "title": "Music Player",
-            "description": "The architecture, which is divided into three buckets, will be used: CSS (Cascading Style Sheets (adding styling to each element defined in the HTML file) JavaScript is a programming language that allows you to (adding elements for audio, player buttons, and music information) (when HTML elements are clicked, functionality is added).",
-            "image": "https://uifresh.net/wp-content/uploads/2021/12/simple-music-player.png",
-            "appFunctions": [
-                "Multiple songs",
-                "Play-Pause button",
-                "Previous-Next song buttons",
-                "Button for looping songs"
-            ],
-            "stack": ["JavaScript", "SCSS"],
-            "links": [
-                {
-                    "linkImage": "https://s3-alpha.figma.com/hub/file/2422840695/98e2f67e-556f-4b57-b05e-7742aada9cf7-cover.png",
-                    "link": "https://www.figma.com/community/file/1159167288813082639"
-                }
-            ],
-            "level": "Beginner"
-        },
-        {
-            "id": "17",
-            "title": "Photography portfolio",
-            "description": "Display your photography skills with beautiful image galleries",
-            "image": "https://static.wixstatic.com/media/4a5235_8c6714e3a77f4dea8c9a4efbdbfd26c2~mv2.jpg/v1/fill/w_640,h_354,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/4a5235_8c6714e3a77f4dea8c9a4efbdbfd26c2~mv2.jpg",
-            "appFunctions": ["Multiple pages", "Carousel", "Filter by photo theme"],
-            "stack": ["JavaScript", "React", "TailWind", "Redux"],
-            "links": [
-                {
-                    "linkImage": "https://s3-alpha.figma.com/hub/file/2465848328/6c0a0fcb-eb8a-4e4f-8fa4-d45ed2a36abd-cover.png",
-                    "link": "https://www.figma.com/community/file/1162646671883725734"
-                }
-            ],
-            "level": "Advanced"
-        },
-        {
-            "id": "18",
-            "title": "Online Clothing Store",
-            "description": "Design an e-commerce website for clothing and accessories.",
-            "image": "https://i.pinimg.com/originals/b7/3a/86/b73a8649b21aeda0ae92cf25954613b3.png",
-            "appFunctions": ["Sorting", "Filters", "Cart", "Save item for later", "Search"],
-            "stack": ["JavaScript", "React", "TailWind", "Redux", "API calls", "JSON server"],
-            "links": [
-                {
-                    "linkImage": "https://s3-alpha.figma.com/hub/file/2555671029/877e8ada-0157-40e1-bf0c-20f23f967b37-cover.png",
-                    "link": "https://www.figma.com/community/file/1169625825293818878"
-                },
-                {
-                    "linkImage": "https://s3-alpha.figma.com/hub/file/2638750832/38d0d565-1204-4e4c-ae27-6bd9c9e53cc8-cover.png",
-                    "link": "https://www.figma.com/community/file/1176201382698798174"
-                }
-            ],
-            "level": "Advanced"
-        },
-        {
-            "id": "19",
-            "title": "To Do App",
-            "description": "A app that keeps track of your to-do actions, you can add any number of tasks to it, search those tasks, click on the checkbox to complete the task, and filter using buttons like active tasks, completed tasks and all the tasks. This is another great project for you to add to your portfolio as a beginner React developer.",
-            "image": "https://www.knowledgehut.com/_next/image?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2Fmedia%2Fimages%2F1659421050984-Image-2%20(41).png&w=1080&q=75",
-            "appFunctions": ["Adding new to-do actions", "Deleting to-do actions", "Filter by completed", "Search"],
-            "stack": ["JavaScript", "React", "SCSS"],
-            "links": [
-                {
-                    "linkImage": "https://s3-alpha.figma.com/hub/file/2545033651/4dd1aa7d-3ed4-4a0b-ad0c-90b1c79a7d31-cover.png",
-                    "link": "https://www.figma.com/community/file/1133173477581507595"
-                },
-                {
-                    "linkImage": "https://s3-alpha.figma.com/hub/file/1681735080/5bf945fe-0c36-411b-b322-de400633ea50-cover.png",
-                    "link": "https://www.figma.com/community/file/1088313494448952121"
-                }
-            ],
-            "level": "Beginner"
-        },
-        {
-            "id": "20",
             "title": "Quiz App",
             "description": "Create an app for creating and taking quizzes",
             "image": "https://img-c.udemycdn.com/course/750x422/2223252_0708.jpg",
@@ -356,7 +279,7 @@
             "level": "Beginner"
         },
         {
-            "id": "21",
+            "id": "17",
             "title": "Calculator",
             "description": "You'll will create a user interface with data entry buttons and a display screen to show the results. The CSS Grid can then be used to align buttons and a screen in a grid-like format. If-else statements, loops, operators, JavaScript functions, event listeners, and so on will increase your knowledge.",
             "image": "https://assets.materialup.com/uploads/32e0a889-e557-4a3f-b481-976de40f91bf/calculatorappdesign.png",
@@ -375,7 +298,7 @@
             "level": "Beginner"
         },
         {
-            "id": "22",
+            "id": "18",
             "title": "Music Player",
             "description": "The architecture, which is divided into three buckets, will be used: CSS (Cascading Style Sheets (adding styling to each element defined in the HTML file) JavaScript is a programming language that allows you to (adding elements for audio, player buttons, and music information) (when HTML elements are clicked, functionality is added).",
             "image": "https://uifresh.net/wp-content/uploads/2021/12/simple-music-player.png",
@@ -395,7 +318,7 @@
             "level": "Beginner"
         },
         {
-            "id": "23",
+            "id": "19",
             "title": "Photography portfolio",
             "description": "Display your photography skills with beautiful image galleries",
             "image": "https://static.wixstatic.com/media/4a5235_8c6714e3a77f4dea8c9a4efbdbfd26c2~mv2.jpg/v1/fill/w_640,h_354,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/4a5235_8c6714e3a77f4dea8c9a4efbdbfd26c2~mv2.jpg",
@@ -410,7 +333,7 @@
             "level": "Advanced"
         },
         {
-            "id": "24",
+            "id": "20",
             "title": "Online Clothing Store",
             "description": "Design an e-commerce website for clothing and accessories.",
             "image": "https://i.pinimg.com/originals/b7/3a/86/b73a8649b21aeda0ae92cf25954613b3.png",
@@ -429,7 +352,110 @@
             "level": "Advanced"
         },
         {
+            "id": "21",
+            "title": "Productivity App",
+            "description": "As the name suggests, productivity apps are the ones that help in enhancing your productivity. Some of the most commonly used productivity apps are note-taking apps, team management apps, task list apps, time management apps, to name a few. .",
+            "image": "https://s3-alpha.figma.com/hub/file/1708666552/129fda52-245b-4a56-94d1-251af27efd48-cover.png",
+            "appFunctions": ["Writing tasks", "Editing tasks", "Statistics"],
+            "stack": ["JavaScript", "React", "TailWind", "Redux", "API calls", "JSON server", "Node JS"],
+            "links": [
+                {
+                    "linkImage": "https://s3-alpha.figma.com/hub/file/1040809059/b14ceeae-7905-4647-a03a-6062fc831feb-cover.png",
+                    "link": "https://www.figma.com/community/file/964788578293948273"
+                }
+            ],
+            "level": "Expert"
+        },
+        {
+            "id": "22",
+            "title": "To Do App",
+            "description": "A app that keeps track of your to-do actions, you can add any number of tasks to it, search those tasks, click on the checkbox to complete the task, and filter using buttons like active tasks, completed tasks and all the tasks. This is another great project for you to add to your portfolio as a beginner React developer.",
+            "image": "https://www.knowledgehut.com/_next/image?url=https%3A%2F%2Fd2o2utebsixu4k.cloudfront.net%2Fmedia%2Fimages%2F1659421050984-Image-2%20(41).png&w=1080&q=75",
+            "appFunctions": ["Adding new to-do actions", "Deleting to-do actions", "Filter by completed", "Search"],
+            "stack": ["JavaScript", "React", "SCSS"],
+            "links": [
+                {
+                    "linkImage": "https://s3-alpha.figma.com/hub/file/2545033651/4dd1aa7d-3ed4-4a0b-ad0c-90b1c79a7d31-cover.png",
+                    "link": "https://www.figma.com/community/file/1133173477581507595"
+                },
+                {
+                    "linkImage": "https://s3-alpha.figma.com/hub/file/1681735080/5bf945fe-0c36-411b-b322-de400633ea50-cover.png",
+                    "link": "https://www.figma.com/community/file/1088313494448952121"
+                }
+            ],
+            "level": "Beginner"
+        },
+        {
+            "id": "23",
+            "title": "Quiz App",
+            "description": "Create an app for creating and taking quizzes",
+            "image": "https://img-c.udemycdn.com/course/750x422/2223252_0708.jpg",
+            "appFunctions": ["Quiz constructor", "Taking quizzes", "Saving results", "Quiz search"],
+            "stack": ["JavaScript", "React", "SCSS", "Redux"],
+            "links": [
+                {
+                    "linkImage": "https://s3-alpha.figma.com/hub/file/1810377268/88e939f2-4e47-4dee-8337-1299c4d42adc-cover.png",
+                    "link": "https://www.figma.com/community/file/1100827216170715240"
+                }
+            ],
+            "level": "Beginner"
+        },
+        {
+            "id": "24",
+            "title": "Calculator",
+            "description": "You'll will create a user interface with data entry buttons and a display screen to show the results. The CSS Grid can then be used to align buttons and a screen in a grid-like format. If-else statements, loops, operators, JavaScript functions, event listeners, and so on will increase your knowledge.",
+            "image": "https://assets.materialup.com/uploads/32e0a889-e557-4a3f-b481-976de40f91bf/calculatorappdesign.png",
+            "appFunctions": ["Basic calculator functions"],
+            "stack": ["JavaScript", "SCSS"],
+            "links": [
+                {
+                    "linkImage": "https://s3-alpha.figma.com/hub/file/2419062441/6b568367-282a-4d77-bc83-7458ff786b3e-cover.png",
+                    "link": "https://www.figma.com/community/file/1067410724733215446"
+                },
+                {
+                    "linkImage": "https://s3-alpha.figma.com/hub/file/629553503/693c9c5f-7bf4-46e4-941a-f1a45c29e388-cover.png",
+                    "link": "https://www.figma.com/community/file/932300216339389541"
+                }
+            ],
+            "level": "Beginner"
+        },
+        {
             "id": "25",
+            "title": "Music Player",
+            "description": "The architecture, which is divided into three buckets, will be used: CSS (Cascading Style Sheets (adding styling to each element defined in the HTML file) JavaScript is a programming language that allows you to (adding elements for audio, player buttons, and music information) (when HTML elements are clicked, functionality is added).",
+            "image": "https://uifresh.net/wp-content/uploads/2021/12/simple-music-player.png",
+            "appFunctions": [
+                "Multiple songs",
+                "Play-Pause button",
+                "Previous-Next song buttons",
+                "Button for looping songs"
+            ],
+            "stack": ["JavaScript", "SCSS"],
+            "links": [
+                {
+                    "linkImage": "https://s3-alpha.figma.com/hub/file/2422840695/98e2f67e-556f-4b57-b05e-7742aada9cf7-cover.png",
+                    "link": "https://www.figma.com/community/file/1159167288813082639"
+                }
+            ],
+            "level": "Beginner"
+        },
+        {
+            "id": "26",
+            "title": "Photography portfolio",
+            "description": "Display your photography skills with beautiful image galleries",
+            "image": "https://static.wixstatic.com/media/4a5235_8c6714e3a77f4dea8c9a4efbdbfd26c2~mv2.jpg/v1/fill/w_640,h_354,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/4a5235_8c6714e3a77f4dea8c9a4efbdbfd26c2~mv2.jpg",
+            "appFunctions": ["Multiple pages", "Carousel", "Filter by photo theme"],
+            "stack": ["JavaScript", "React", "TailWind", "Redux"],
+            "links": [
+                {
+                    "linkImage": "https://s3-alpha.figma.com/hub/file/2465848328/6c0a0fcb-eb8a-4e4f-8fa4-d45ed2a36abd-cover.png",
+                    "link": "https://www.figma.com/community/file/1162646671883725734"
+                }
+            ],
+            "level": "Advanced"
+        },
+        {
+            "id": "27",
             "title": "Online Clothing Store",
             "description": "Design an e-commerce website for clothing and accessories.",
             "image": "https://i.pinimg.com/originals/b7/3a/86/b73a8649b21aeda0ae92cf25954613b3.png",
@@ -446,6 +472,21 @@
                 }
             ],
             "level": "Advanced"
+        },
+        {
+            "id": "28",
+            "title": "Productivity App",
+            "description": "As the name suggests, productivity apps are the ones that help in enhancing your productivity. Some of the most commonly used productivity apps are note-taking apps, team management apps, task list apps, time management apps, to name a few. .",
+            "image": "https://s3-alpha.figma.com/hub/file/1708666552/129fda52-245b-4a56-94d1-251af27efd48-cover.png",
+            "appFunctions": ["Writing tasks", "Editing tasks", "Statistics"],
+            "stack": ["JavaScript", "React", "TailWind", "Redux", "API calls", "JSON server", "Node JS"],
+            "links": [
+                {
+                    "linkImage": "https://s3-alpha.figma.com/hub/file/1040809059/b14ceeae-7905-4647-a03a-6062fc831feb-cover.png",
+                    "link": "https://www.figma.com/community/file/964788578293948273"
+                }
+            ],
+            "level": "Expert"
         }
     ]
 }
