@@ -11,7 +11,7 @@ import { LOCALSTORAGE_THEME, changeTheme } from "../shared/lib/helpers/changeThe
 
 export const App = () => {
     useEffect(() => {
-        changeTheme(localStorage.getItem(LOCALSTORAGE_THEME) || "");
+        changeTheme(localStorage.getItem(LOCALSTORAGE_THEME) || "lara-light-cyan");
     }, []);
 
     return (
