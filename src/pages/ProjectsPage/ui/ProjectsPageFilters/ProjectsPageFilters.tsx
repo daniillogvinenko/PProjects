@@ -13,7 +13,6 @@ import { Dropdown, DropdownChangeEvent } from "primereact/dropdown";
 import { Button } from "primereact/button";
 import { InputText } from "primereact/inputtext";
 import { FormEvent } from "react";
-import { useDebounce } from "shared/lib/hooks/useDebounce/useDebounce";
 
 export const ProjectsPageFilters = () => {
     const dispatch = useAppDispatch();

@@ -3,7 +3,7 @@ import { Splitter } from "primereact/splitter";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import { Dropdown, DropdownChangeEvent } from "primereact/dropdown";
-import { LOCALSTORAGE_THEME, changeTheme } from "shared/lib/helpers/changeTheme";
+import { LOCALSTORAGE_THEME, changeTheme } from "shared/lib/helpers/changeTheme/changeTheme";
 
 const DropdownThemes = [
     "lara-light-cyan",

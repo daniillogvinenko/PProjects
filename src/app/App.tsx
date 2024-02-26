@@ -7,7 +7,7 @@ import { MainPage } from "pages/MainPage";
 import classes from "./App.module.scss";
 import { ProjectsPage } from "pages/ProjectsPage/ui/ProjectsPage";
 import { useEffect } from "react";
-import { LOCALSTORAGE_THEME, changeTheme } from "../shared/lib/helpers/changeTheme";
+import { LOCALSTORAGE_THEME, changeTheme } from "../shared/lib/helpers/changeTheme/changeTheme";
 
 export const App = () => {
     useEffect(() => {

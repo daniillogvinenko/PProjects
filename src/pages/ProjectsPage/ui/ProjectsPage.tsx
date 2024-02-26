@@ -37,6 +37,8 @@ export const ProjectsPage = () => {
         data: projects,
         isFetching,
     } = useProjects({ stack: selectedTechnologies, level: selectedLevel, limit, page: pageNumber, search: query }, {});
+
+    // для пагинации нужно знать общее количество записей, соответственно делаем запрос без параметров
     const totalData = useProjects(
         { stack: selectedTechnologies, level: selectedLevel, limit: "", page: "", search: query },
         {}
@@ -85,7 +87,7 @@ export const ProjectsPage = () => {
     ) : (
         <div className={classes.notFound}>
             <span>NO RESULTS FOUND</span>
-            <img src={NoResImage} />
+            <img style={{ maxWidth: "100vw" }} src={NoResImage} />
         </div>
     );
 
